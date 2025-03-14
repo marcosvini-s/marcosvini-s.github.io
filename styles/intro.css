@@ -1,0 +1,46 @@
+.intro{
+    background: url(/assets/Background_Intro.png) lightgray 50% / cover;
+    width: 100%;
+    height: 750px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 120px 163px 57px 163px;
+    gap: 94px;
+}
+
+.info{
+    width: 1040px;
+    height: 447px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 56px;
+}
+
+.avatar{
+    width: 208px;
+    height: 208px;
+}
+
+.avatar img:first-child{
+    width: 208px;
+    height: 208px;
+    border-radius: 9999px;
+    object-fit: cover;
+    border: 2px solid var(--red-color);
+    padding: 4.36px;
+}
+.avatar img:last-child{
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: -43px;
+    left: 152px;
+}
+
+ .title p {
+        font: var(--font-family-subtitle);
+        color: var(--red-color);
+ }
