@@ -17,6 +17,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 56px;
+    text-align: center;
 }
 
 .avatar{
@@ -37,19 +38,31 @@
     height: 32px;
     position: relative;
     top: -43px;
-    left: 152px;
+    left: 66px;
+}
+.text-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 
- .title p {
-        font: var(--font-family-subtitle);
-        color: var(--gray-500);
- }
-
- span {
+span {
     color: var(--red-color);
- }
+}
 
- .title {
+.title p {
+       font: var(--font-family-subtitle);
+       color: var(--gray-500);
+}
+
+h1 {
     font: var(--title-lg);
     color: var(--gray-600);
- }
+}
+
+.text-info p:nth-child(2){
+    font: var(--text-sm);
+    color: var(--gray-400);
+    text-align: center;
+}
