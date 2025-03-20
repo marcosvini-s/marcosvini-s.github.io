@@ -43,23 +43,26 @@
       ul li a:hover:before {
         top: 0;
       }
-      ul li :nth-child(1) a:before{
-        background: #3b5999;
+      ul li:nth-child(1) a:before{
+        background: var(--gray-300);
     }
-    ul li :nth-child(2) a:before{
-        background: #55acee;
+    ul li:nth-child(2) a:before{
+        background: var(--red-color);
       }
       
-      ul li :nth-child(3) a:before{
-        background: #0077b5;
+      ul li:nth-child(3) a:before{
+        background: var(--blue-color);
       }
       
-      ul li :nth-child(4) a:before{
-        background: #dd4b39;
+      ul li:nth-child(4) a:before{
+        background: var(--yellow-color);
       }
       
-      ul li :nth-child(5) a:before{
-        background: #3b5999;
+      ul li:nth-child(5) a:before{
+        background: var(--blue-color);
+      }
+      ul li:nth-child(6) a:before{
+        background: var(--green-color);
       }
 }
 
