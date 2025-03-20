@@ -32,3 +32,6 @@
     }
 
 
+body{
+  background-color: var(--gray-200);
+}
