@@ -9,8 +9,7 @@
     border-radius: 2em;
     border: solid 2px;
     transition: .4s;
-    margin: auto;
-    gap: 50px;
+    margin: 94px auto;
 }
   
 .scroll-icon:hover {
