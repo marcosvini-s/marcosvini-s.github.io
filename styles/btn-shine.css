@@ -2,7 +2,7 @@
   position: relative;
   transform: translate(-50%,-50%);
   color: #ffffff;
-  background: linear-gradient(to right, #fffdfd 0, white 10%, var(--gray-500) 20%);
+  background: linear-gradient(to right, #f05757 0, rgb(238, 128, 128) 10%, var(--gray-500) 20%);
   background-position: 0;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
