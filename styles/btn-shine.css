@@ -1,0 +1,30 @@
+.title p a{
+  position: relative;
+  transform: translate(-50%,-50%);
+  color: #ffffff;
+  background: linear-gradient(to right, #fffdfd 0, white 10%, var(--gray-500) 20%);
+  background-position: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  white-space: nowrap;
+  
+
+}
+@keyframes shine {
+    0% {
+      bacground-position: 0;
+    }
+    60%{
+      background-position: 180px
+    }
+    100%{
+      background-position: 180px    
+    }
+  }
+  
