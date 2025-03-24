@@ -31,7 +31,7 @@
   height: 208px;
   border-radius: 9999px;
   object-fit: cover;
-  border: 2px solid var(--red-color);
+  border: 2px solid var(--gray-400);
   padding: 4.36px;
 }
 .avatar img:last-child{
