@@ -64,5 +64,9 @@
       ul li:nth-child(6) a:before{
         background: var(--green-color);
       }
+      ul li:nth-child(7) a:before{
+        background: var(--red-color);
+      }
+      
 }
 
