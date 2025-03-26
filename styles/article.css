@@ -26,11 +26,16 @@ article{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
-  margin-top: 30px;
+  margin-top: 94px;
+  text-align: center;
 }
 
 @keyframes textclip {
   to {
     background-position: 200% center;
   }
+}
+
+.container-1 p{
+    color: var(--gray-600);
 }
