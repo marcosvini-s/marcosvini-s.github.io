@@ -10,7 +10,7 @@
     border: solid 2px;
     transition: .4s;
     position: absolute;
-    margin: auto;
+    margin-top: 20px;
 }
   
 .scroll-icon:hover {
