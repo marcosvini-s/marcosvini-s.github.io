@@ -6,16 +6,17 @@ section{
 
 section div{
     color: var(--gray-400);
-  font-family: var(--font-family-title);
+  font-family: var(--font-family-subtitle);
   font-weight: 300;
   font-size: 32px;
   overflow: hidden;
   display: flex;
   justify-content: center;
+  align-items: center;
   padding-top: 88px;
-  -webkit-backface-visibility: hidden;
-  -webkit-perspective: 1000;
-  -webkit-transform: translate3d(0,0,0);
+  backface-visibility: hidden;
+  perspective: 1000;
+  transform: translate3d(0,0,0);
   div {
     display:inline-block;
     overflow:hidden;
@@ -41,9 +42,9 @@ section div{
   
   span {
     font-size: 32px;
-    font-family: var(--font-family-title);
+    font-family: var(--font-family-subtitle);
     color: var(--gray-400);
-    padding-left: 5px;
+    padding-left: 10px;
   }
 }
 @keyframes slidein {
@@ -56,9 +57,9 @@ section div{
 @keyframes reveal {
     0% {opacity: 0; width: 0px;}
     20% {opacity: 1; width: 0px;}
-    30% {width:360px;}
+    30% {width:397px;}
     80% {opacity:1;}
-    100% {opacity:0;width:360px;}
+    100% {opacity:0;width:397px;}
 }
 @keyframes showup {
     0% {opacity:0;}
