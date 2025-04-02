@@ -1,18 +1,15 @@
 .box{
     margin: 0;
-
     padding: 0;
-
     min-height: 100vh;
-
     display: flex;
-
     align-items: center;
-
     justify-content: center;  
+    font: var(--text-md);
+    gap: 80px;
 }
-.box .plug .icon {
 
+.box .plug .icon {
     position: absolute;
 
     top: 0;
@@ -23,7 +20,7 @@
 
     height: 100%;
 
-    background: #2c73df;
+    background: var(--gray-200);
 
 }
 
@@ -43,7 +40,7 @@
 
 }
 
-.box .plug .slide {
+.box .plug .slip {
 
     width: 300px;
 
@@ -53,7 +50,7 @@
 
 }
 
-.box .plug .slide.slide1 {
+.box .plug .slip.slip1 {
 
     position: relative;
 
@@ -71,13 +68,13 @@
 
 }
 
-.box .plug:hover .slide.slide1{
+.box .plug:hover .slip.slip1{
 
     transform: translateY(0px);
 
 }
 
-.box .plug .slide.slide2 {
+.box .plug .slip.slip2 {
 
     position: relative;
 
@@ -99,13 +96,13 @@
 
 }
 
-.box .plug:hover .slide.slide2{
+.box .plug:hover .slip.slip2{
 
     transform: translateY(0);
 
 }
 
-.box .plug .slide.slide2::after{
+.box .plug .slip.slip2::after{
 
     content: "";
 
@@ -127,7 +124,7 @@
 
 }
 
-.box .plug .slide.slide2 .vol p {
+.box .plug .slip.slip2 .vol p {
 
     margin: 0;
 
@@ -139,7 +136,7 @@
 
 }
 
-.box .plug .slide.slide2 .vol h3 {
+.box .plug .slip.slip2 .vol h3 {
 
     margin: 0 0 10px 0;
 
