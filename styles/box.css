@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;  
     font: var(--text-sm);
-    gap: 80px;
+    gap: 5rem;
 }
 
 .box .plug .icon {
@@ -23,14 +23,14 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 80px;
+    font-size: 0.313rem;
     color: #fff;
-    width: 80px;
+    width: 5rem;
 }
 
 .box .plug .slip {
-    width: 300px;
-    height: 200px;
+    width: 18.75rem;
+    height: 12.5rem;
     transition: 0.5s;
 }
 
@@ -41,11 +41,11 @@
     align-items: center;
     z-index: 1;
     transition: .7s;
-    transform: translateY(100px);
+    transform: translateY(6.25rem);
 }
 
 .box .plug:hover .slip.slip1{
-    transform: translateY(0px);
+    transform: translateY(0rem);
 }
 
 .box .plug .slip.slip2 {
@@ -53,11 +53,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 1.25rem;
     box-sizing: border-box;
     transition: .8s;
-    transform: translateY(-100px);
-    box-shadow: 0 20px 40px rgba(27, 29, 35, 0.542);
+    transform: translateY(-6.25rem);
+    box-shadow: 0 1.25rem 2.5rem rgba(27, 29, 35, 0.542);
 }
 
 .box .plug:hover .slip.slip2{
@@ -67,9 +67,9 @@
 .box .plug .slip.slip2::after{
     content: "";
     position: absolute;
-    width: 30px;
-    height: 4px;
-    bottom: 15px;
+    width: 1.875rem;
+    height: 0.25rem;
+    bottom: 0.938rem;
     left: 50%;
     left: 50%;
     transform: translateX(-50%);
@@ -84,9 +84,9 @@
 }
 
 .box .plug .slip.slip2 .vol h3 {
-    margin: 0 0 10px 0;
+    margin: 0 0 0.625rem 0;
     padding: 0;
-    font-size: 24px;
+    font-size: 1.5;
     text-align: center;
     color: #fff;
 } 
