@@ -73,7 +73,7 @@ span {
   align-items: flex-start;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-  @media(max-width: 25rem){ transform: scale(.65);}
+  @media(max-width: 700px){ transform: scale(.65);}
 }
 .main{
 

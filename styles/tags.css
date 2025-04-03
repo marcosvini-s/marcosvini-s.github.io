@@ -34,7 +34,7 @@
         position: absolute;
         top: 100%;
         left: 0;
-        width: 100%;
+        width: 100vh;
         height: 100%;
         background: #494646;
         transition: .5s;
