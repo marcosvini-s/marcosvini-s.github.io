@@ -17,6 +17,29 @@
       height: 100%;
     }
 
+    body{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    body p{
+      font-size: 0.9rem;
+    }
+
+    body h1{
+      font-size: 2rem;
+    }
+
+    body h3{
+      font-size: 2rem;
+    }
+
+    body a{
+      font-size: 2rem;
+      align-items: center;
+      text-align: center;
+    }
+
   }
   @media screen and (max-height:700px){
     html{
@@ -25,6 +48,36 @@
       height: 100%;
     }
     
+    html{
+      font-size: 53%;
+      width: 100vh;
+      height: 100%;
+    }
+
+    body{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    body p{
+      font-size: 0.9rem;
+    }
+
+    body h1{
+      font-size: 2rem;
+    }
+
+    body h3{
+      font-size: 2rem;
+    }
+
+    body a{
+      font-size: 2rem;
+      align-items: center;
+      text-align: center;
+    }
+
+
   }
   
 
